@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.meme span{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    margin-top: 307px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 0 5px black;
+
+}
+
+
+
+.meme span:nth-child(1){
+  margin-top: 38px
+}
+
+
+.meme img{
+  width: 100%;
+}
+
+body, .meme{
+
+background-color: #2C3333;
+}
+
+input{
+  border-radius: 5px;
+  margin: 10px 10px 10px 10px;
+  width: 200px;
+  height: 20px;
+}
+
+select{
+  border-radius: 5px;
+  margin: 10px 10px 10px 10px;
+  width: 300px;
+  height: 40px;
+}
+
+header{
+  background-color: black;
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+  box-shadow: 0px 2px 64px rgba(255, 255, 255, 0.2);
 }
